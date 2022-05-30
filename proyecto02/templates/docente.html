@@ -1,0 +1,19 @@
+{% extends 'master.html' %}
+
+{% block content %}
+    <span class="title">
+        <h1>Docente - ({{ docente.id }})</h1>
+    </span>
+    <div class="content">
+            <div class="student">
+                <p><b>Nombre:</b>{{ docente.nombre }}</p>
+                <hr>
+                <p><b>Placa:</b>{{ docente.placa }}</p>
+                <hr>
+                <p><b>Año:</b>{{ docente.año }}</p>
+                <hr>
+                <p><b>Costo:</b>{{ docente.costo }}</p>
+                
+            </div>
+    </div>
+{% endblock %}
